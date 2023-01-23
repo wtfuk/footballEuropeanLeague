@@ -1,0 +1,9 @@
+# ignore the sqlite3 database file
+*.sqlite3
+*.sqlite3-journal
+*.sqlite
+*.sqlite-journal
+# ignore the DS_Store file
+.DS_Store
+# ignore the .csv files
+*.csv

@@ -2,9 +2,7 @@ FROM jupyter/datascience-notebook
 
 RUN pip install --upgrade pip
 
-RUN pip install lxml
-
-RUN pip install ipython ipykernel
+RUN pip install future ipython ipykernel lxml pandas-profiling requests sklearn tabulate torch torchvision tpot
 
 COPY . /notebooks
 
